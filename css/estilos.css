@@ -1,0 +1,539 @@
+body{
+	font-size: 16px;
+	font-family: 'PT Sans', sans-serif;
+	background: #233D58;
+	position: relative;
+}
+
+header{
+	width: 100%;
+	height: 35px;
+	position: relative;
+	z-index: 999;
+}
+
+header h1{
+	display: none;
+}
+
+
+header nav .ioMenuMovil{
+	height: 25px;
+	width: 150px;
+	cursor: pointer;
+	line-height: 40px;
+	margin: 0px 0px 0px 10px;
+}
+
+header nav .ioMenuMovil img{
+	height: 250%;
+}
+
+header nav #card_menu{
+	position: relative;
+	width: 230px;
+	background: white;
+	top: -30px;
+	left: 0px;
+	border-right: 3px solid #AFAEAE;
+	z-index: 999;
+	padding-bottom: 50px;
+}
+
+header nav #card_menu #logo_menu{
+	height: 200px;
+	width: 80%;
+	margin: 30px 0px;
+	margin-left: 10%;
+}
+
+header nav #card_menu #logo_menu img{
+	width: 100%;
+}
+
+header nav #card_menu ul{
+	margin-top: -80px;
+}
+
+header nav #card_menu ul li{
+	list-style: none;
+	font-size: 1.5em;
+	line-height: 37px;
+}
+
+
+header nav #card_menu ul li a{
+	text-decoration: none;
+	color: black;
+}
+
+header #prev_section,
+header #next_section{
+	width: 25px;
+	height: 25px;
+	cursor: pointer;
+	margin: 5px;
+	position: absolute;
+	top: 0px;
+	overflow: hidden;
+}
+
+header #prev_section{
+	right: 35px;
+}
+header #next_section{
+	right: 5px;
+}
+
+header #prev_section img,
+header #next_section img{
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	position: relative;
+}
+
+header #prev_section img{
+	transform: rotate(180deg);
+}
+
+#slider{
+	width: 100%;
+	position: relative;
+	height: 600px;
+	background: #233D58;
+}
+
+#slider section.slide{
+	position: absolute;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+}
+
+#slider #home{
+	background: #233D58;
+	font-family: 'PT Sans', sans-serif;
+	position: relative;
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+#slider #home .mainamination{
+	width: 80%;
+	margin-left: 10%;
+	min-height: 400px;
+	position: absolute;
+}
+
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+/* ---- particles.js container ---- */
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #233D58;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+/* ---- stats.js ---- */
+
+.count-particles{
+  background: #000022;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 80px;
+  color: #13E8E9;
+  font-size: .8em;
+  text-align: left;
+  text-indent: 4px;
+  line-height: 14px;
+  padding-bottom: 2px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+.js-count-particles{
+  font-size: 1.1em;
+}
+
+#stats,
+.count-particles{
+  -webkit-user-select: none;
+}
+
+#stats{
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+}
+
+.count-particles{
+  border-radius: 0 0 3px 3px;
+}
+
+#slider #home .mainlogo{
+	background: none;
+	position: relative;
+	width: 60vw;
+	margin-left: 20vw;
+	min-height: 430px;
+}
+
+#slider #home .mainlogo h2{
+	font-size: 1.2em;
+	padding-top: 20px;
+	color: white;
+	font-weight: lighter;
+}
+
+#slider #home .mainlogo strong{
+	font-size: 1.2em;
+	font-family: 'Rubik';
+	display: block;
+}
+
+#slider #home .mainlogo figure,
+#slider #home .mainlogo img{
+	width: 100%;
+	margin: 0px;
+}
+
+#slider #home .buttonspage{
+	width: 100%;
+	text-align: center;
+}
+
+#slider #home .buttonspage > *{
+	display: inline-block;
+	width: 40%;
+	margin: 5px 2.5%;
+	color: white;
+	padding: 15px 2.5%;
+}
+
+#slider #home #contratame{
+	cursor: pointer;
+	background: #00FF2A;
+}
+
+#slider #home a{
+	text-decoration: none;
+	background: #CC1919;
+}
+
+
+#slider #aboutme{
+	height: 400px;
+	background: purple;
+}
+
+#slider #skills{
+	height: 300px;
+	background: blue;
+}
+
+#slider #portafolio{
+	height: 200px;
+	background: white;
+}
+
+#slider #blog{
+	height: 100px;
+	background: green;
+}
+
+#contact_form{
+	position: absolute;
+	right: 0px;
+	top: 35px;
+	background: white;
+	border: 1px solid green;
+	width: 250px;
+	border-top: 1px solid black;
+	box-shadow: 0px 0px 3px #00FF2A;
+	font-family: 'Rubik', sans-serif;
+	height: 100vh;
+	z-index: 999;
+	display: none;
+}
+
+#contact_form #close_form{
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	left: 80%;
+	top: 155px;
+}
+
+#contact_form #close_form:hover{
+	cursor: pointer;
+}
+
+#contact_form #close_form i:before{
+   color: #EE3931;
+   font-size: 40px;
+   position:relative;
+}
+
+#contact_form figure{
+	height: 180px;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+
+}
+
+#contact_form figure img{
+	width: 100%;
+}
+
+#contact_form p{
+	margin: 20px;
+	width: 90%;
+	margin-left: 5%;
+}
+
+#contact_form input,
+#contact_form textarea{
+	display: block;
+	margin: 20px;
+	border: none;
+	border-bottom: 2px solid #205BAA;
+	width: 90%;
+	margin-left: 5%;
+	padding-bottom: 3px;
+	margin-bottom: 50px;
+	font-weight: bold;
+}
+
+#contact_form #button{
+	cursor: pointer;
+	background: #00FF2A;
+	color: white;
+	border: none;
+	padding: 8px 0px;
+	border-radius: 15px;
+}
+
+#contact_button i{
+	width: 60px;
+	height: 60px;
+	background: #00FF2A;
+	border-radius: 50%;
+	color: white;
+	z-index: 80;
+	right: 10px;
+	position: fixed;
+	top: 80vh;
+}
+
+#contact_button i:hover{
+	cursor: pointer;
+}
+
+#contact_button i:before{
+	position: relative;
+	font-size: 2.8em;
+	top: 5px;
+	left: 7.3px;
+}
+
+footer{
+	width: 100%;
+	background: black;
+	color: white;
+	text-align: center;
+	z-index: 90;
+	height: 150px;
+	position: fixed;
+	bottom: -130px;
+	transition-duration: 0.5s;
+}
+
+
+footer:hover{
+	bottom: 0px;
+}
+
+footer .rrss{
+	margin-top: 60px;
+	width: 100%;
+	height: 40px;
+}
+
+footer .rrss a{
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	position: relative;
+}
+
+footer .rrss a i:before{
+	color: white;
+	text-decoration: none;
+	position: absolute;
+	font-size: 2.1em;
+	top: 5px;
+	left: 6px;
+}
+
+
+footer p{
+	font-size: 0.7em;
+	font-weight: lighter;
+	font-family: 'Rubik';
+}
+
+
+
+
+@media screen and (min-width: 480px){
+	#slider #home .mainlogo{
+		width: 270px;
+		left: 50%;
+		margin-left: -135px;
+		padding-bottom: 50px;
+	}
+	
+	#slider #home .mainlogo h2{
+		font-size: 1.4em;
+	}
+	
+	#slider #home .mainlogo figure{
+		width: 80%;
+		margin-left: 10%;
+	}
+
+    #slider #home .buttonspage > *{
+    	width: 200px;
+    }
+}
+
+@media screen and (min-width: 600px){
+}
+
+@media screen and (min-width: 767px){
+
+
+	header{
+		height: 50px;
+	}
+
+	header h1{
+		display: inline-block;
+		width: 20%;
+		margin: 0px;
+		height: 50px;
+		margin-left: 80px;
+		line-height: 50px;
+		min-width: 200px;
+	}
+
+	header h1 > *{
+		display: inline-block;
+		vertical-align: middle;
+		text-decoration: none;
+		color: white;
+		font-size: 0.8em;
+		margin: 0px 3px;
+	}
+
+	header h1 figure{
+		height: 40px;
+		width: 40px;
+		margin: 0px;
+	}
+
+	header h1 figure img{
+		width: 100%;
+	}
+	
+	header nav {
+		display: inline-block;
+		vertical-align: middle;
+		width: 62%;
+		position: relative;
+	}
+
+	header nav #showMenu,
+	header nav #hideMenu{
+		display: none;
+	}
+
+	header nav #card_menu{
+		display: inline-block;
+		border: none;
+		background: none;
+		position: relative;
+		top: 0px;
+		width: 100%;
+		text-align: right;
+		padding-bottom: 0px;
+	}
+
+	header nav #card_menu figure{
+		display: none;
+	}
+
+	header nav #card_menu ul{
+		padding: 0px;
+		margin: 0px;
+		margin-top: -10px;
+	}
+
+	header nav #card_menu ul li{
+		display: inline-block;
+		width: 75px;
+		text-align: center;
+		font-size: 1em;
+		margin: 0px -2px;
+	}
+
+	header nav #card_menu ul li a{
+		color: white;
+	}
+	
+	header #prev_section,
+	header #next_section{
+		position: absolute;
+		width: 50px;
+		height: 50px;
+		right: 40px;
+		z-index: 999;
+	}
+
+	header #prev_section{
+		top: 115px;
+	}
+
+	header #next_section{
+		top: 190px;
+	}
+
+	header #prev_section img,
+    header #next_section img{
+        width: 100%;
+    }
+
+    #contact_form{
+    	top: 50px;
+    	width: 250px;
+    }
+
+    #contact_button i{
+    	right: 39px;
+    }
+}
+@media screen and (min-width: 950px){
+}
