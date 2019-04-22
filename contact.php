@@ -1,6 +1,6 @@
 <?php 
 
-$para = 'davalero@ieee.org';
+$para = 'ieee@itc.edu.co';
 
 $asunto = "Mensaje desde página ETITC-IEEE.org";
 $mailheader = "From: ".$_POST["email"]."\r\n"
