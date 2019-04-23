@@ -233,23 +233,23 @@ canvas {
 
 
 #slider #aboutme{
-	height: 400px;
-	background: purple;
+	height: 700px;
+	background:white;
 }
 
 #slider #skills{
-	height: 300px;
-	background: blue;
+	height: 700px;
+	background: white;
 }
 
 #slider #portafolio{
-	height: 200px;
+	height: 700px;
 	background: white;
 }
 
 #slider #blog{
-	height: 100px;
-	background: green;
+	height: 700px;
+	background: white;
 }
 
 #contact_form{
