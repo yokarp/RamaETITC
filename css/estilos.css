@@ -247,6 +247,16 @@ canvas {
 	background: white;
 }
 
+#slider #portafolio div{
+	background: red;
+	height: 300px;
+	width: 300px;
+	ruby-position: after;
+	left: 40px;
+	position: absolute;
+
+}
+
 #slider #blog{
 	height: 700px;
 	background: white;
