@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+	<link rel="shortcut icon" href="/favicon.png" />
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>ETITC - IEEE</title>
@@ -13,12 +14,17 @@
 	<meta name="robots" content="index, follow">
 
 	<script src="js/modernizr-custom.js"></script>
+	<script src="Jquery/jquery-1.6.3.min.js"></script>
 	<link rel="stylesheet" href="css/normalize.css">
-
 	<link rel="stylesheet" type="text/css" href="css/estilos.css">
 	<link href="https://fonts.googleapis.com/css?family=PT+Sans|Rubik" rel="stylesheet"> 
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
+	<script>
+			$(function(){
+				$("body").hide().fadeIn(3000);
+			});
+	</script>
 </head>
 <body>
 	<header>
@@ -40,10 +46,10 @@
 
 			<ul>
 				<li><a onCLick = "navSection('home')" href="#" >Home</a></li>
-				<li><a onCLick = "navSection('aboutme')" href="#" >Historia</a></li>
+				<li><a onCLick = "navSection('aboutme')" href="#" >Capítulos</a></li>
 				<li><a onCLick = "navSection('skills')" href="#" >Proyectos</a></li>
 				<li><a onCLick = "navSection('portafolio')" href="#" >Portafolio</a></li>
-				<li><a onCLick = "navSection('blog')" href="#" >Blog</a></li>
+				<li><a onCLick = "navSection('blog')" href="#" >Noticias</a></li>
 				<li><a onCLick = "displayFormContact('block')" href="#" >Contacto</a></li>
 			</ul>
 			</div>
@@ -74,26 +80,31 @@
 			</div>
 
 
-			
-/*Tenemos que trabajar todo el contenido de los diferentes contenidos del slider*/
-
 		</section>
-		/*Informacion de la parte de Historia*/
 		<section class="slide" id="aboutme" style="display:none">
-			<h1>Historia</h1>
+			<h1>Historia de la Rama estudiantil</h1>
 		</section>
 		
-		/*Información de proyectos*/
+
 		<section class="slide" id="skills" style="display:none">
 			<h1>Proyectos</h1>
 		</section>
 	
-		/*Información de Portafolio*/
+
 		<section class="slide" id="portafolio" style="display:none">
-			<h1>Portafolio</h1>
+			<h1>Personal de la junta</h1>
+			<div><img id="presidente" src="img/valero.jpeg"><a>Mi nombre es David Valero y soy el encagado de
+				 todo lo relacionado y no me gusta dar lo qu me piden...</a></div>
+
+			<div><img src="img/homero.jpeg">
+				<a> nombre es homero simpson y soy un personaje de la television estadounidesnse y de más, sigo trabajando
+				por rosquillas y de más cosas interesantes</a>
+			</div>
+
+
 		</section>
 
-		/*Información de Blog*/
+
 		<section class="slide" id="blog" style="display:none">
 			<h1>Blog</h1>
 		</section>
@@ -123,10 +134,10 @@
 
 		<footer><i class="far fa-arrow-alt-circle-up"></i>
 			<div class="rrss">
-				<a href="#"><i class="fab fa-instagram"></i></a>
-				<a href="#"><<i class="fab fa-facebook-square"></i></a>
-				<a href="#"><i class="fab fa-twitter"></i></a>
-				<a href="#"><i class="fab fa-github"></i></a>
+				<a href="https://www.instagram.com/ieee_etitc/" target="_blank"><i class="fab fa-instagram"></i></a>
+				<a href="https://www.facebook.com/IEEE.ETITC/" target="_blank"><<i class="fab fa-facebook-square"></i></a>
+				<a href="https://twitter.com/ieee_etitc" target="_blank"><i class="fab fa-twitter"></i></a>
+				<a href="https://github.com/BrianRojasGarcia" target="_blank"><i class="fab fa-github"></i></a>
 			</div>
 			<p>2019 All rights reserved | Privacity Policy</p>
 		</footer>

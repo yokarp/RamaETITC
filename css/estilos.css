@@ -129,7 +129,7 @@ header #prev_section img{
 
 canvas {
   display: block;
-  vertical-align: bottom;
+ vertical-align: bottom;
 }
 
 /* ---- particles.js container ---- */
@@ -243,9 +243,29 @@ canvas {
 }
 
 #slider #portafolio{
-	height: 700px;
+	overflow: hidden;
+	height: 1000px;
 	background: white;
 }
+
+#slider #portafolio div{
+	float: left;
+	height: 250px;
+	width: 250px;
+	position: relative;
+	margin-left: 3vw;
+}
+
+#slider #portafolio div a{
+	background: #13E8E9;
+}
+
+
+#slider #portafolio div img{
+	width: 100%;
+	height: 100%;
+}
+
 
 #slider #blog{
 	height: 700px;
@@ -396,9 +416,13 @@ footer p{
 }
 
 
-
-
 @media screen and (min-width: 480px){
+
+
+	#slider #portafolio div{
+		margin-left: 7vw;
+	}
+
 	#slider #home .mainlogo{
 		width: 270px;
 		left: 50%;
@@ -415,12 +439,13 @@ footer p{
 		margin-left: 10%;
 	}
 
-    #slider #home .buttonspage > *{
+  #slider #home .buttonspage > *{
     	width: 200px;
-    }
+	}
 }
 
 @media screen and (min-width: 600px){
+	
 }
 
 @media screen and (min-width: 767px){
@@ -533,7 +558,8 @@ footer p{
 
     #contact_button i{
     	right: 39px;
-    }
+		}
+		
 }
 @media screen and (min-width: 950px){
 }
